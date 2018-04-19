@@ -53,7 +53,6 @@ void Decrypt()
 
 void main()
 {
-	//unsigned char *message = malloc(sizeof(unsigned char)*BUFFSIZE);
 	GenerateSymmetricKey();
 	Encrypt();
 	Decrypt();
